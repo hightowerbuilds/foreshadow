@@ -1,0 +1,20 @@
+[package]
+name = "foreshadow"
+description = "A scene library for wgpu — animated, shader-based backgrounds you can drop into any Rust app."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+wgpu = "23"
+bytemuck = { version = "1.18", features = ["derive"] }
+pollster = "0.4"
+
+[dev-dependencies]
+winit = "0.30"
+env_logger = "0.11"
+
+[[example]]
+name = "water"
+path = "examples/water.rs"
