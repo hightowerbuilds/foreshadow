@@ -22,3 +22,7 @@ path = "examples/water.rs"
 [[example]]
 name = "forest_canopy"
 path = "examples/forest_canopy.rs"
+
+[[example]]
+name = "space_orbit"
+path = "examples/space_orbit.rs"
