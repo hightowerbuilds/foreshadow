@@ -26,3 +26,7 @@ path = "examples/forest_canopy.rs"
 [[example]]
 name = "space_orbit"
 path = "examples/space_orbit.rs"
+
+[[example]]
+name = "contouring_lines"
+path = "examples/contouring_lines.rs"
